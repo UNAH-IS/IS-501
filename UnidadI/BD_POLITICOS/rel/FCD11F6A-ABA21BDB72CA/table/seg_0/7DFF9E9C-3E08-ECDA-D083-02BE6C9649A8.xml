@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DFF9E9C-3E08-ECDA-D083-02BE6C9649A8" name="TBL_FOTOGRAFIAS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:12:08 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FOTOGRAFIA" id="EF16B877-7446-A710-7D3E-6CFEA1E09071">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:14:37 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_POLITICO" id="4FDDE629-D335-A815-DE4E-69B4094E88FB">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:14:42 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AB60C14-4B72-EA77-7D40-DB5E7963E7E6" referredColumn="81C1DAF3-BC9F-9DD1-9696-85FD2E1783C9"/>
+</associations>
+</Column>
+<Column name="DESCRIPCION" id="1B277A43-3AAA-709A-158C-1B9FE20337CB">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:14:37 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_URL" id="F97ECF77-E8C1-3CBB-A53B-FF3AE18FFE4A">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:14:37 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_SUBIDA" id="0F1BEB69-2A2B-B63C-8F40-0104CE43A8F3">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:14:37 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A735783D-FF2A-9A04-8285-C69D15778910" name="TBL_FOTOGRAFIAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:14:37 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF16B877-7446-A710-7D3E-6CFEA1E09071"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BEAD6F6-E33D-51A9-5072-8F33515EF483" name="TBL_FOTOGRAFIAS_TBL_POLITICOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:14:42 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FDDE629-D335-A815-DE4E-69B4094E88FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

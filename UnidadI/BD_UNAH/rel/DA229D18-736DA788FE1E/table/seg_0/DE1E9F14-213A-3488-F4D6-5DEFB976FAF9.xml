@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE1E9F14-213A-3488-F4D6-5DEFB976FAF9" name="TBL_PAGOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:29:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAGO" id="400BEFB3-3DCA-EF3E-0794-E36A514F0C7B">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:29:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUENTA" id="5ED43C20-D85E-7748-7B13-310EEE2149E6">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:30:34 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C06A7FE-E902-2936-5E77-FB54FBEE0E0D" referredColumn="06A78F76-E6CC-DA17-8638-16B429B7AB91"/>
+</associations>
+</Column>
+<Column name="CODIGO_PERIODO" id="BC66EA9E-CDCA-BA07-F983-148866548810">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:33:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26DED6E9-3D5F-3EF9-26A4-6C7EC71518A4" referredColumn="D61FBFEB-1955-4B07-53CD-2D86C42CED8D"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_PAGO" id="506A7CF7-02C0-C561-0F3E-74B9EFFB7FA6">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:33:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54A11A73-6AE5-D2AE-146F-B8F4A41F5E61" referredColumn="F40C3B5E-4BEA-4AF6-C13F-63389FF0BAB4"/>
+</associations>
+</Column>
+<Column name="REFERENCIA_BANCARIA" id="D9B34BA0-9154-B454-D17F-B3EB03246942">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:29:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO_PAGADO" id="99A07C6E-FB32-09CE-C47F-E489B2A2AC30">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:29:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PAGO" id="37F22473-8CAA-7335-7190-970CD0762802">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:29:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3311652D-E88C-41E8-FEF8-7849AEF2444F" name="TBL_PAGOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:30:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="400BEFB3-3DCA-EF3E-0794-E36A514F0C7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4F1D6CF-A0FA-2466-7B9B-15EAE9ADA474" name="TBL_PAGOS_REF_BANCO_UN">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:30:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9B34BA0-9154-B454-D17F-B3EB03246942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51D228CD-BC95-9566-2CB3-0D776F2E97D5" name="TBL_PAGOS_TBL_ALUMNOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:30:34 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ED43C20-D85E-7748-7B13-310EEE2149E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4424DA94-0B1E-375E-7526-89708D24421C" name="TBL_PAGOS_TBL_PERIODOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:33:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC66EA9E-CDCA-BA07-F983-148866548810"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45EEFE71-F316-12C7-3F66-317FFA7D5872" name="TBL_PAGOS_TBL_TIPOS_PAGOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:33:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="506A7CF7-02C0-C561-0F3E-74B9EFFB7FA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

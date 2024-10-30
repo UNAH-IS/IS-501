@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F308B948-FA43-C1F1-4D45-E238B0B4BD26" containerWithKeyObject="EA4207B4-4083-3592-F4DF-D2F1A16D3E2C" localFKIndex="75E0E4F4-3A7A-D9C7-B906-E87B2FABFD02" name="TBL_USUARIOS_TBL_ESTADOS_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:38:35 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<referredTableLongName>TBL_ESTADOS_USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB255D35-C63E-04EF-DA2E-B6B5FEAA7754</referredTableID>
+<keyObject>0A7FBDC6-9EA7-6504-9B26-5233E93F2CF0</keyObject>
+<referredKeyID>0A7FBDC6-9EA7-6504-9B26-5233E93F2CF0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

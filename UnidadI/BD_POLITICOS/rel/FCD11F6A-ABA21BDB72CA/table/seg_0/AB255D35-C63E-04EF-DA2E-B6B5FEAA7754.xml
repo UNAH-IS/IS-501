@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB255D35-C63E-04EF-DA2E-B6B5FEAA7754" name="TBL_ESTADOS_USUARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:37:58 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO" id="7C9A10C8-4323-1A6A-C95F-DB49D6CCA5D9">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:38:28 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO" id="3CED815B-296B-390E-7850-8AAEE7C544D0">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:38:28 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="CEF0A398-9CD3-1863-2B8F-3F73DE80362E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:38:28 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A7FBDC6-9EA7-6504-9B26-5233E93F2CF0" name="TBL_ESTADOS_USUARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:38:28 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C9A10C8-4323-1A6A-C95F-DB49D6CCA5D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

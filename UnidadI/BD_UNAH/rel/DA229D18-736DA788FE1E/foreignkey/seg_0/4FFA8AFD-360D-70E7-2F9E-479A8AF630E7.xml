@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FFA8AFD-360D-70E7-2F9E-479A8AF630E7" containerWithKeyObject="28267ABE-E0EB-6081-75B0-C3537D08A57D" localFKIndex="CCCE4111-3CA2-B490-06B1-DBAA0BE31ED2" name="TBL_HISTORIAL_TBL_ESTADOS_HISTORIAL_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:44:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_ESTADOS_HISTORIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75A852C4-7F7A-25DC-F2DC-185185FBE140</referredTableID>
+<keyObject>0F4E6C01-A987-E04C-68D1-D01B0792A0A9</keyObject>
+<referredKeyID>0F4E6C01-A987-E04C-68D1-D01B0792A0A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADO_HISTORIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

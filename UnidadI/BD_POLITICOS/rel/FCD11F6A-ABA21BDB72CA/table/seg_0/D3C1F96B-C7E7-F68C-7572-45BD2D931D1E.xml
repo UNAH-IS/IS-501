@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3C1F96B-C7E7-F68C-7572-45BD2D931D1E" name="TBL_LUGARES">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:19:53 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="2317DE1D-ABC2-EB76-1432-5584F57ECEF8">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:20:27 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="DF133581-CE64-4845-F418-98786319128E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:21:51 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53F363E8-77AA-D5A3-8E08-7D665B7322D9" referredColumn="1D762E3D-FD84-04C1-3BD5-76364D7CFBBA"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="184116A2-4673-C0EA-0B5F-F5C10C4B8FC0">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:23:50 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DE0369F-2516-A3E0-C85B-BFB8AC1828FD" referredColumn="2317DE1D-ABC2-EB76-1432-5584F57ECEF8"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="12935B8C-DF16-A401-ABB2-41668BE98A8A">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:20:27 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="3AC9429A-9FCD-2E0E-F6B2-13FB4590BAC1">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:20:27 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="30CD8E45-173B-1AA1-652D-259D9580751E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:20:27 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F42F9492-DE4F-0394-5056-1B7448FFC705" name="TBL_LUGARES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:20:27 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2317DE1D-ABC2-EB76-1432-5584F57ECEF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C967825-3F6A-E8CC-1EE8-18425B70AB4F" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:21:51 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF133581-CE64-4845-F418-98786319128E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DFE1123-83CC-E918-353F-4DBB6A710DDE" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:23:50 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="184116A2-4673-C0EA-0B5F-F5C10C4B8FC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

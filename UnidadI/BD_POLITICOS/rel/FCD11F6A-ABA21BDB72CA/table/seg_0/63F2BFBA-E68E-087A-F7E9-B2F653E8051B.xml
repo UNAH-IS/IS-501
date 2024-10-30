@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63F2BFBA-E68E-087A-F7E9-B2F653E8051B" name="TBL_VALIDACIONES_USUARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:39:17 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="D3B704A8-1CFF-F848-52AD-EEA5AE1B85D3">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:45:45 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="667FAF2F-6AE3-23CE-F52F-DC13F2E16C21" referredColumn="F131ED04-20D0-B845-39AA-C07B35E8B5D6"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_VALIDA" id="EE94C323-B147-2200-8761-5EEBA841A368">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:45:51 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6331A44-00C6-C6C6-6FEB-787387A6461E" referredColumn="F131ED04-20D0-B845-39AA-C07B35E8B5D6"/>
+</associations>
+</Column>
+<Column name="FECHA_VALIDACION" id="3B72C889-14A5-AD94-E47F-E4CA5C712E9E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:45:40 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="702E7D0A-CE9D-F1DD-347E-71F3C1D93E3C" name="TBL_VALIDACIONES_USUARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:46:28 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3B704A8-1CFF-F848-52AD-EEA5AE1B85D3"/>
+<colUsage columnID="EE94C323-B147-2200-8761-5EEBA841A368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F924BA56-CC7C-4341-3E9B-611B3C27B75B" name="TBL_VALIDACIONES_USUARIOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:45:45 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3B704A8-1CFF-F848-52AD-EEA5AE1B85D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA36E038-BD6E-1CE9-BD5A-FC0798E13DE3" name="TBL_VALIDACIONES_USUARIOS_TBL_USUARIOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:45:51 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE94C323-B147-2200-8761-5EEBA841A368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

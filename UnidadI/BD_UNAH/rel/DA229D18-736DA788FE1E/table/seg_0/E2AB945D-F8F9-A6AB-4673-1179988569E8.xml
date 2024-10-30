@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2AB945D-F8F9-A6AB-4673-1179988569E8" name="TBL_PAISES">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-09 01:17:14 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAIS" id="5FF3D250-CB78-8F86-D08E-CA9AB460E47C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-09 01:17:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAIS" id="0DDFCD50-8CE5-153A-ACD1-6D88C1508D2E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-09 01:17:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="568D862F-8EF0-1399-D39D-74D6B2EE9F2E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-09 01:17:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD_1" id="3EBD49F9-F95B-B85E-B0A5-4F0F49490740">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-09 01:17:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="366A432C-C3A5-E1F8-F062-9DCCEC4FCA3E" name="TBL_PAISES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-09 01:17:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FF3D250-CB78-8F86-D08E-CA9AB460E47C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F215344B-FADF-1CD4-5C4B-F7CAA78BC858" name="TBL_TIPOS_LOGROS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:18:08 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_LOGRO" id="592376CA-46CA-F7E4-404F-459A70ED8453">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:18:44 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_LOGRO" id="6C5832BC-845D-AEB1-5C2C-0D5D8EAC04E1">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:18:44 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFEAE5B2-AE90-8EF6-6285-08E4DD804045" name="TBL_TIPOS_LOGROS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:18:44 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="592376CA-46CA-F7E4-404F-459A70ED8453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

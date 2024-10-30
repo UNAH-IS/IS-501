@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="930F9675-A138-45DB-C595-C3C6EF8C2762" name="TBL_CARGOS_PUBLICOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:23:03 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARGO" id="289B97FB-2988-AAE2-9B19-5409AB5D861D">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:23:54 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CARGO_PUBLICO" id="2234ED2F-056F-0A94-494A-D0F6C1F0403E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:23:54 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="9312447F-A987-4411-E0DA-3F6102EA05FE">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:23:54 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD11EB2D-FA52-027D-977B-8DCE03C28E47" name="TBL_CARGOS_PUBLICOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:23:54 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="289B97FB-2988-AAE2-9B19-5409AB5D861D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

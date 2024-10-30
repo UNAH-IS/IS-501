@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="41AA1484-5E0C-3F59-BBD8-955B29BCCBF1" containerWithKeyObject="BEF38B52-53CA-A122-6823-080D529D2094" localFKIndex="35410966-2775-EB4E-18E4-AB4DF00F5CEA" name="TBL_MATRICULA_TBL_ALUMNOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:16:34 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_ALUMNOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7BB73512-83E0-436A-7B3E-28FD90CC06CE</referredTableID>
+<keyObject>44142A69-F6FB-EA5B-2DD9-B78E7B63E7DD</keyObject>
+<referredKeyID>44142A69-F6FB-EA5B-2DD9-B78E7B63E7DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CUENTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB037F7E-0AA7-5C4E-C541-894AA76946FE" name="TBL_DEPTOS_ADMIN">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:17:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DEPARTAMENTO" id="D07BF817-E93C-7E6F-4017-DEE21111AE6E">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:18:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_DEPARTAMENTO" id="0E03E668-A038-B8A2-76B6-8F792CAFCA4C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:18:30 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13E953AC-E035-0809-8C9E-F57897A3DD3F" name="TBL_DEPARTAMENTOS_ADMINISTRATIVOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:18:46 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D07BF817-E93C-7E6F-4017-DEE21111AE6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

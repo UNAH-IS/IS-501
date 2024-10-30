@@ -1,0 +1,194 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47EC2390-7408-9981-AA01-53C2CD2D7FDC" name="TBL_POLITICOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:48:27 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_POLITICO" id="81C1DAF3-BC9F-9DD1-9696-85FD2E1783C9">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:50:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR" id="5CE3CB09-4B2E-D997-0A4C-667F7144F7EB">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:22:33 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B141545-D420-3E29-B2FB-E395C3055A1E" referredColumn="2317DE1D-ABC2-EB76-1432-5584F57ECEF8"/>
+</associations>
+</Column>
+<Column name="CODIGO_ADMINISTRADOR_CREO" id="FC938743-BD47-6626-A9FA-D006A1A54AB0">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:33 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7849985C-BC23-8E13-C2D2-3CBBB9F0814A" referredColumn="A3A25D25-920C-1392-D503-7E4F9654E403"/>
+</associations>
+</Column>
+<Column name="CODIGO_PARTIDO_POLITICO" id="8A8375FB-EEE4-EC8C-DDA4-94670BF655AE">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:24 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7C6C8F3-7544-8C71-08C2-57B26AD2CA43" referredColumn="317B47A2-6468-C1D1-5023-C437D91B1CEF"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARGO" id="66DF1115-A616-B3C2-5343-6E07F2853535">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:24:48 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D1DCCD1-2F03-CCE8-7C7A-5B68D3A8E358" referredColumn="289B97FB-2988-AAE2-9B19-5409AB5D861D"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="FB362E67-E1CA-A8BF-832B-9B6F06FDE461">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:50:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="2A9CA369-DB74-172E-F639-59A5789C7E41">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:50:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESENA" id="29AB0DAB-D6A9-3385-08F8-ABB0F9D7F180">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:50:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="C2F01CC8-5BA7-1EAC-5BCF-597A30A4D8D1">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:50:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGITRO" id="834ED346-184B-F2E1-845C-DB7608A4471D">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:50:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="E92E8426-D4C2-3DDB-382F-F5DEBD83B15A">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:50:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="34F3DD5D-3D99-818D-FFA9-37C1B637CFC6">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:50:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1223F2A-1FF2-DB88-D719-7CCD5EB1050A" name="TBL_POLITICOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:16:31 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81C1DAF3-BC9F-9DD1-9696-85FD2E1783C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C20C8425-2680-676E-F6F8-85500E9A4977" name="TBL_POLITICOS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:22:33 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CE3CB09-4B2E-D997-0A4C-667F7144F7EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2860C79-29F0-678E-0E82-53DBA94AC4B2" name="TBL_POLITICOS_TBL_ADMINISTRADORES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:33 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC938743-BD47-6626-A9FA-D006A1A54AB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A85C4146-CA09-0F6E-5764-DD8499BACC21" name="TBL_POLITICOS_TBL_PARTIDOS_POLITICOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:24 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A8375FB-EEE4-EC8C-DDA4-94670BF655AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C05CFD3-E4CB-E28D-973F-C614759A89A2" name="TBL_POLITICOS_TBL_CARGOS_PUBLICOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:24:48 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66DF1115-A616-B3C2-5343-6E07F2853535"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

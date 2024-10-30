@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2D46337B-132D-776C-BF77-BDEE24E00E54" containerWithKeyObject="1B43A268-F381-3B7E-9AD3-FFCDCADC0B22" localFKIndex="7E3BE4B8-6750-624C-AF5B-96DB4FCEE1E7" name="TBL_DEPARTAMENTOS_TBL_PAISES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-09 01:18:13 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_PAISES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2AB945D-F8F9-A6AB-4673-1179988569E8</referredTableID>
+<keyObject>366A432C-C3A5-E1F8-F062-9DCCEC4FCA3E</keyObject>
+<referredKeyID>366A432C-C3A5-E1F8-F062-9DCCEC4FCA3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PAIS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

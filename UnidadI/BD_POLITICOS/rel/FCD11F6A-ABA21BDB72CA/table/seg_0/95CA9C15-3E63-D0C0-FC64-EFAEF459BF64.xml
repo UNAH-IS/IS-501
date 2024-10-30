@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95CA9C15-3E63-D0C0-FC64-EFAEF459BF64" name="TBL_CALIFICACIONES_POLITICOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:30:19 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CALIFICACION" id="825C3393-8744-ACB3-163C-61756FBED126">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:31:31 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="5D5B57D5-0BB6-DA72-3653-9E46FDE1BCD7">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:31:55 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91E582FF-55A7-ED81-57C3-F535E054D086" referredColumn="F131ED04-20D0-B845-39AA-C07B35E8B5D6"/>
+</associations>
+</Column>
+<Column name="CODIGO_POLITICO" id="04058BFE-FC29-94F8-A2DC-43ECA2BE4915">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:32:00 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D36E6FDC-70FC-2D17-CA97-F1AFB487902E" referredColumn="81C1DAF3-BC9F-9DD1-9696-85FD2E1783C9"/>
+</associations>
+</Column>
+<Column name="FECHA" id="ACEE60D5-F400-7BF7-8ABE-C3BF3E061C82">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:31:31 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALIFICACION" id="AB41204E-AD30-3841-CA5F-96FD601319D3">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:31:31 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIO" id="F24B2246-343F-F08B-6E6D-C8BB9965EB04">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:34:39 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA9A43BC-B587-CFA8-6CE8-D831DE4A6148" name="TBL_CALIFICACIONES_POLITICOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:31:31 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="825C3393-8744-ACB3-163C-61756FBED126"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="245EFFFA-C5B6-9CB6-2D8E-3C0AE67518F3" name="TBL_CALIFICACIONES_POLITICOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:31:55 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D5B57D5-0BB6-DA72-3653-9E46FDE1BCD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB8A6EA3-64B5-0558-240B-6BD209A3C4AA" name="TBL_CALIFICACIONES_POLITICOS_TBL_POLITICOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-23 01:32:00 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04058BFE-FC29-94F8-A2DC-43ECA2BE4915"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

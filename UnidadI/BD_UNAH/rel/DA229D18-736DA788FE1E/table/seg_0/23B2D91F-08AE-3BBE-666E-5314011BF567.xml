@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23B2D91F-08AE-3BBE-666E-5314011BF567" name="TBL_MAESTROS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:20:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MAESTRO" id="ABE952CB-882B-79CD-A0A6-D0C9D73604A4">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:24:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E86B94E-056B-33F2-75C3-85F46D78279B" referredColumn="0CFC8059-4F98-6796-0A91-66C137BE71E2"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARRERA" id="D99DA298-5D50-3C10-9227-2ACA98A0B74B">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:22:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86466910-5393-59DC-F1A0-287D495ECB9D" referredColumn="3F96DA7E-A270-E3F2-2D83-7AAB4AE12C78"/>
+</associations>
+</Column>
+<Column name="CODIGO_TITULARIDAD" id="08E08100-3314-AF92-4754-4805ED48DB37">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:22:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="614FB313-8E85-AC84-7672-D1D40FDC818C" referredColumn="1EB40E4C-338E-9188-88D1-E41C5B4A4995"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_UV" id="A25D8372-B75E-FCC8-275B-9FEE7EAB3CB7">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:22:00 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32DC3BE5-EEED-8EC7-B2D8-351AB45EC31F" name="TBL_MAESTROS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:26:24 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE952CB-882B-79CD-A0A6-D0C9D73604A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1C4420E-0751-2788-1898-64E791D3681F" name="TBL_MAESTROS_TBL_CARRERAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:22:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D99DA298-5D50-3C10-9227-2ACA98A0B74B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72718519-6224-57A4-7C2A-3F52997F888C" name="TBL_MAESTROS_TBL_TITULARIDADES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:22:35 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E08100-3314-AF92-4754-4805ED48DB37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFE86AF6-45A7-F5FC-F953-DE93E7AFDD01" name="TBL_MAESTROS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:24:51 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE952CB-882B-79CD-A0A6-D0C9D73604A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

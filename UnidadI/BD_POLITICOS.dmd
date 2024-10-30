@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BD_POLITICOS" id="6AC8CD2D-F389-EF83-A10D-F534C5893554" version="3.5">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-22 01:33:24 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6AC8CD2D-F389-EF83-A10D-F534C5893554</designId>
+</OSDM_Design>

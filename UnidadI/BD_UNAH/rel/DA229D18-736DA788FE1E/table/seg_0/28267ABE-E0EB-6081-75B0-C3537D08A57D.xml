@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28267ABE-E0EB-6081-75B0-C3537D08A57D" name="TBL_HISTORIAL">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:41:34 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HISTORIAL" id="F0BCCEF3-00C2-6E89-2220-EEBE34BE6D36">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:42:36 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUENTA" id="8DD9A708-8FAA-0ABF-2D38-F0D38A46D4BD">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:42:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9521B9F5-50F4-F5DA-26AB-32425412CA79" referredColumn="06A78F76-E6CC-DA17-8638-16B429B7AB91"/>
+</associations>
+</Column>
+<Column name="CODIGO_SECCION" id="0A2AC9BE-4F9C-7926-655E-6AB3C81727AB">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:43:14 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79B35D78-59C9-8AC6-EE80-56D5AD1D3C83" referredColumn="F131ED59-EE7D-CED0-B677-8837286E0004"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_HISTORIAL" id="581C78B4-1A21-ADE6-7EA4-0A4EE5DB0E39">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:44:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FFA8AFD-360D-70E7-2F9E-479A8AF630E7" referredColumn="C7E41883-BBA4-E6EB-1DB7-C4F49D06C453"/>
+</associations>
+</Column>
+<Column name="FECHA_REGISTRO" id="48AD8CB4-5A77-41A8-25B6-4E91C8A2FFE1">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:42:36 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA" id="DD82B1E0-85BA-1E9F-7319-2BC2788F7310">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:42:36 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC495159-4E39-272B-361C-26E3309D69DA" name="TBL_HISTORIAL_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:42:40 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0BCCEF3-00C2-6E89-2220-EEBE34BE6D36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00DC8FD7-D7BB-AF61-76F7-84460AF7819C" name="TBL_HISTORIAL_TBL_ALUMNOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:42:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DD9A708-8FAA-0ABF-2D38-F0D38A46D4BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76A63A56-AF3F-2A88-EDB2-B45A8EEA2D46" name="TBL_HISTORIAL_TBL_SECCIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:43:14 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A2AC9BE-4F9C-7926-655E-6AB3C81727AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCCE4111-3CA2-B490-06B1-DBAA0BE31ED2" name="TBL_HISTORIAL_TBL_ESTADOS_HISTORIAL_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-18 01:44:19 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="581C78B4-1A21-ADE6-7EA4-0A4EE5DB0E39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

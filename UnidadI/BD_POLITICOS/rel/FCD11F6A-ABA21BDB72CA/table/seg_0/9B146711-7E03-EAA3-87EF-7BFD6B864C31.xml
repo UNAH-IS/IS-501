@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B146711-7E03-EAA3-87EF-7BFD6B864C31" name="TBL_ADMINISTRADORES">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:15:28 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ADMINISTRADOR" id="A3A25D25-920C-1392-D503-7E4F9654E403">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="9BD7AC73-8828-FF37-360A-50B2D9830015">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="A165320B-7E08-211C-B174-D857981107A1">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="1837C19F-C0C1-72FC-4BDA-46A9F14B962A">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="79EDBC41-937C-033C-1561-E3DA028A3696">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="68406D8E-B867-9F14-F0F1-41CBCA4C8CCA">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1897EB51-C919-915C-326A-F7181A34268D" name="TBL_ADMINISTRADORES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:16:16 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3A25D25-920C-1392-D503-7E4F9654E403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

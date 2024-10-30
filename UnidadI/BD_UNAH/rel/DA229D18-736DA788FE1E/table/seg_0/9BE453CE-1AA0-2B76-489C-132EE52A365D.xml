@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BE453CE-1AA0-2B76-489C-132EE52A365D" name="TBL_EMPLEADOS_ADMIN">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:26:54 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="23B8ACB0-0905-E971-A57F-1777CACD2DC4">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:28:31 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF862916-D592-C92D-A254-57664282B3CC" referredColumn="0CFC8059-4F98-6796-0A91-66C137BE71E2"/>
+</associations>
+</Column>
+<Column name="CODIGO_DEPARTAMENTO" id="C77DA48F-F50E-00E4-C679-1253648B7507">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:29:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="566C9A54-665F-CB26-4782-A97D7CDC4CE8" referredColumn="D07BF817-E93C-7E6F-4017-DEE21111AE6E"/>
+</associations>
+</Column>
+<Column name="HORA_ENTRADA" id="8BD87C09-7F4D-0353-7EEC-FE6944F3C750">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:27:28 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_SALIDA" id="F07809F9-FA00-3914-D39B-65DA4B1096D7">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:27:28 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C285A00-A8D2-FCE7-4F70-97DED6CD8E25" name="TBL_EMPLEADOS_ADMIN_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:29:33 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23B8ACB0-0905-E971-A57F-1777CACD2DC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B94B2D59-92F0-889F-A7AC-233C0605677C" name="TBL_EMPLEADOS_ADMIN_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:28:31 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23B8ACB0-0905-E971-A57F-1777CACD2DC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D36B4A2-3663-E09C-C536-FD91D2FF6CBE" name="TBL_EMPLEADOS_ADMIN_TBL_DEPTOS_ADMIN_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-17 01:29:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C77DA48F-F50E-00E4-C679-1253648B7507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

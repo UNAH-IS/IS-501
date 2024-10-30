@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7C6C8F3-7544-8C71-08C2-57B26AD2CA43" containerWithKeyObject="47EC2390-7408-9981-AA01-53C2CD2D7FDC" localFKIndex="A85C4146-CA09-0F6E-5764-DD8499BACC21" name="TBL_POLITICOS_TBL_PARTIDOS_POLITICOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:24 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<referredTableLongName>TBL_PARTIDOS_POLITICOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7D3EF1F-5556-CA46-4E1B-8AF505A4A22E</referredTableID>
+<keyObject>38D8E26B-608B-3BE5-1114-61D18658F37B</keyObject>
+<referredKeyID>38D8E26B-608B-3BE5-1114-61D18658F37B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PARTIDO_POLITICO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

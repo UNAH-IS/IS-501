@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7D3EF1F-5556-CA46-4E1B-8AF505A4A22E" name="TBL_PARTIDOS_POLITICOS">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:17:22 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PARTIDO_POLITICO" id="317B47A2-6468-C1D1-5023-C437D91B1CEF">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:18 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PARTIDO" id="6589041B-8F4A-EE70-AE31-E69FB79D295C">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:18 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="E74CA7B3-F026-79E8-D7AE-731CDD4569AE">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:18 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGO" id="F05C35A7-8745-6820-8E7C-5F849A8B68DB">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:18 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FUNDACION" id="4F516D00-20F2-F5C9-E9B9-C2D33758DCDB">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:18 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38D8E26B-608B-3BE5-1114-61D18658F37B" name="TBL_PARTIDOS_POLITICOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2024-10-29 01:18:18 UTC</createdTime>
+<ownerDesignName>BD_POLITICOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="317B47A2-6468-C1D1-5023-C437D91B1CEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
